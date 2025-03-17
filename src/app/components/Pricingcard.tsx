@@ -85,42 +85,17 @@ const PricingSection: React.FC = () => {
           Transparent pricing designed to fit your requirements.
         </p>
 
-        {/* Billing Toggle */}
-        <div className="flex justify-center mb-10">
-          <div className="bg-gray-900 rounded-full p-1 inline-flex">
-            <button
-              onClick={() => setBillingPeriod('annually')}
-              className={`px-6 py-2 rounded-full text-sm transition ${
-                billingPeriod === 'annually' 
-                  ? 'bg-indigo-600 text-white' 
-                  : 'text-gray-400 hover:text-white'
-              }`}
-            >
-              Annually
-            </button>
-            <button
-              onClick={() => setBillingPeriod('monthly')}
-              className={`px-6 py-2 rounded-full text-sm transition ${
-                billingPeriod === 'monthly' 
-                  ? 'bg-indigo-600 text-white' 
-                  : 'text-gray-400 hover:text-white'
-              }`}
-            >
-              Monthly
-            </button>
-          </div>
-        </div>
-
+      
         {/* Pricing Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div 
               key={index} 
-              className="bg-gray-900/30 rounded-lg p-8 border border-gray-800 flex flex-col"
+              className="bg-zinc-900/30 rounded-lg p-8 border borderflex flex-col"
             >
               {/* Plan Badge */}
               <div className="flex items-center mb-4">
-                <div className="h-6 w-6 rounded-full bg-indigo-600 flex items-center justify-center mr-2">
+                <div className="h-6 w-6 rounded-full bg-zinc-600 flex items-center justify-center mr-2">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>

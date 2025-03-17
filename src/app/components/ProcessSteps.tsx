@@ -130,10 +130,10 @@ export default function ProcessSection() {
           A simple, effective approach to deliver excellence.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto border border-blue-900/40 rounded-lg p-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto border rounded-lg p-4">
           {processSteps.map((step, index) => (
-            <div key={index} className="bg-gray-900/50 p-6 rounded-lg">
-              <div className="bg-gray-800 rounded-lg w-full h-32 mb-6 flex items-center justify-center">
+            <div key={index} className="bg-zinc-900/50 p-6 rounded-lg">
+              <div className="bg-zinc-900 rounded-lg w-full h-80 mb-6 flex items-center justify-center">
                 {/* This would be a screenshot in the actual implementation */}
                 <div className="flex items-center justify-center space-x-4">
                   <div className="h-16 w-6 bg-indigo-500/30 rounded"></div>
@@ -166,8 +166,8 @@ export default function ProcessSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {services.map((service, index) => (
-            <div key={index} className="bg-gray-900/30 p-6 rounded-lg">
-              {service.image}
+            <div key={index} className="bg-zinc-900/30 p-6 rounded-lg">
+              {/* {service.image} */}
               <h3 className="text-white text-xl font-bold mt-6 mb-3">{service.title}</h3>
               <p className="text-gray-400 text-sm">{service.description}</p>
             </div>

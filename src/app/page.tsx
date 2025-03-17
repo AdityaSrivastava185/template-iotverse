@@ -179,10 +179,10 @@ export default function Home() {
         {/* Hero Section */}
         <section className="flex flex-col items-center justify-center text-center py-24 px-4 h-screen">
           <div className="mb-8">
-            <img src="/radison-logo.svg" alt="Radison" className="h-8" />
+            {/* <img src="/radison-logo.svg" alt="Radison" className="h-8" /> */}
           </div>
           
-          <h1 className="text-5xl font-bold mb-4 max-w-2xl">
+          <h1 className="text-5xl font-bold mb-4 max-w-2xl text-white">
             Let's talk about<br />your next big move
           </h1>
           
@@ -201,7 +201,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="border-t border-gray-800 py-12 px-6 bg-black">
+      <footer className="border-t border py-12 px-6 bg-black">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
             {/* Logo and Company Description */}
@@ -213,7 +213,7 @@ export default function Home() {
                     <path d="M5,5 L19,5 L19,19 L5,19 Z" fill="white" />
                   </svg>
                 </div>
-                <h2 className="text-xl font-bold">Radison</h2>
+                <h2 className="text-xl font-bold text-white">Radison</h2>
               </div>
               <p className="text-gray-400 mb-6">
                 Your trusted partner in AI solutions, creating smarter systems for smarter businesses.
@@ -221,16 +221,16 @@ export default function Home() {
               
               {/* Social Media Icons */}
               <div className="flex space-x-4">
-                <a href="#" className="h-8 w-8 bg-gray-800 flex items-center justify-center rounded-full">
+                <a href="#" className="h-8 w-8 bg-zinc-400 flex items-center justify-center rounded-full">
                   {/* <FaTwitter className="text-white" /> */}
                 </a>
-                <a href="#" className="h-8 w-8 bg-gray-800 flex items-center justify-center rounded-full">
+                <a href="#" className="h-8 w-8 bg-zinc-400 flex items-center justify-center rounded-full">
                   {/* <FaInstagram className="text-white" /> */}
                 </a>
-                <a href="#" className="h-8 w-8 bg-gray-800 flex items-center justify-center rounded-full">
+                <a href="#" className="h-8 w-8 bg-zinc-400 flex items-center justify-center rounded-full">
                   {/* <FaFacebookF className="text-white" /> */}
                 </a>
-                <a href="#" className="h-8 w-8 bg-gray-800 flex items-center justify-center rounded-full">
+                <a href="#" className="h-8 w-8 bg-zinc-400 flex items-center justify-center rounded-full">
                   {/* <FaPinterest className="text-white" /> */}
                 </a>
               </div>
@@ -238,7 +238,7 @@ export default function Home() {
             
             {/* Sections Column */}
             <div>
-              <h3 className="text-sm font-semibold mb-4 uppercase tracking-wider">Sections</h3>
+              <h3 className="text-sm font-semibold mb-4 uppercase tracking-wider text-white">Sections</h3>
               <ul className="space-y-2">
                 <li><Link href="/about" className="text-gray-400 hover:text-white">About</Link></li>
                 <li><Link href="/services" className="text-gray-400 hover:text-white">Services</Link></li>
@@ -250,7 +250,7 @@ export default function Home() {
             
             {/* Pages Column */}
             <div>
-              <h3 className="text-sm font-semibold mb-4 uppercase tracking-wider">Pages</h3>
+              <h3 className="text-sm font-semibold mb-4 uppercase tracking-wider text-white">Pages</h3>
               <ul className="space-y-2">
                 <li><Link href="/" className="text-gray-400 hover:text-white">Home</Link></li>
                 <li><Link href="/blog" className="text-gray-400 hover:text-white">Blog</Link></li>
@@ -260,7 +260,7 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-800 text-sm text-gray-400">
+          <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-800 text-sm text-white">
             <p>Policy and cookies</p>
             <p>Terms and conditions</p>
             <p>© All right reserved to IotVerse</p>
