@@ -27,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 border-t border-gray-800 text-sm text-white">
+                    <div className="flex flex-col md:flex-row justify-between md:items-center mt-12 pt-8 border-t border-gray-800 text-sm text-white">
                         <p>Policy and cookies</p>
                         <p>Terms and conditions</p>
                         <p>© All right reserved to EZEBUDDIES</p>

@@ -20,27 +20,17 @@ export default function ProcessSection() {
                     Mobile friendly
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
-                  A responsive, user-friendly web application that allows users to control, monitor, and customize their IoT devices from anywhere
+                    A responsive, user-friendly web application that allows users to control, monitor, and customize their IoT devices from anywhere
                   </p>
                 </div>
 
-                <div className="max-w-6xl px-6">
-                  <div className="bg-gradient-to-tl from-[#100a2e] to-[#000000] bg-opacity-95 p-6 rounded-lg shadow-lg">
-                    <h2 className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
-                      Mobile-Friendly Web Application
-                    </h2>
-                    <p className="text-gray-400 mt-3 text-center md:text-left">
-                      Easily control and monitor your IoT devices from anywhere with our
-                      intuitive, responsive web application.
-                    </p>
-                    <div className="flex flex-col md:flex-row items-center gap-6 mt-6">
-                      <ul className="text-gray-300 text-sm space-y-3">
-                        <li><strong>Real-time Monitoring</strong> - Get live updates on your devices.</li>
-                        <li><strong>Effortless Control</strong> - Adjust settings anytime, anywhere.</li>
-                        <li><strong>AI Insights</strong> - Optimize energy usage with smart analytics.</li>
-                        <li><strong>Cross-Device Support</strong> - Works on mobile, tablet, and desktop.</li>
-                      </ul>
-                    </div>
+                <div className="@container relative min-h-[30rem] w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                  <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-zinc-700 bg-zinc-900 shadow-2xl">
+                    <img
+                      className="size-full object-cover object-top"
+                      src="/mobile.png"
+                      alt=""
+                    />
                   </div>
                 </div>
 
@@ -53,7 +43,7 @@ export default function ProcessSection() {
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                   <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Performance</p>
                   <p className="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+                    we design IoT systems that prioritize speed, efficiency, and reliability, ensuring seamless operations in both B2B and B2C environments
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
@@ -72,7 +62,7 @@ export default function ProcessSection() {
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                   <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Security</p>
                   <p className="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
-                    Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.
+                    Security is at the core of Ezebuddies' IoT ecosystem, ensuring your data, devices, and networks remain protected at all times.
                   </p>
                 </div>
                 <div className="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
@@ -93,28 +83,47 @@ export default function ProcessSection() {
                     Powerful Integrations
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-zinc-400 max-lg:text-center">
-                  Seamless integration framework that enables users to connect their IoT devices
+                    Seamless integration framework that enables users to connect their IoT devices
                   </p>
                 </div>
-                <div className="max-w-6xl mx-auto px-6">
-                  <div className="bg-gradient-to-tl from-[#100a2e] to-[#000000] bg-opacity-95 p-6 rounded-lg shadow-lg">
-                    <h2 className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">
-                      Powerful Integration & Customization
-                    </h2>
-                    <p className="text-gray-400 mt-3 text-center md:text-left">
-                      Connect your IoT devices effortlessly with our smart integration platform,
-                      allowing full customization to suit your needs.
-                    </p>
-                    <div className="flex flex-col md:flex-row items-center gap-6 mt-6">
-                      <ul className="text-gray-300 text-sm space-y-3">
-                        <li><strong>Seamless Connectivity</strong> - Integrate IoT devices with ease.</li>
-                        <li><strong>Smart Automations</strong> - Customize workflows for optimal efficiency.</li>
-                        <li><strong>API & Cloud Support</strong> - Connect to external platforms effortlessly.</li>
-                        <li><strong>Enterprise-Grade Security</strong> - Keep your data protected at all times.</li>
-                      </ul>
+                <div className="relative min-h-[30rem] w-full grow">
+                  <div className="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-gray-900 shadow-2xl">
+                    <div className="flex bg-gray-800/40 ring-1 ring-white/5">
+                      <div className="-mb-px flex text-sm/6 font-medium text-gray-400">
+                        <div className="border-r border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white">
+                          Dashboard.tsx
+                        </div>
+                        <div className="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
+                      </div>
                     </div>
+                    <div className="px-6 pb-14">
+                      <pre className="bg-gray-900 text-white p-4 rounded-md overflow-x-auto">
+                        {`
+import { useState } from 'react';
+import { Switch } from '@headlessui/react';
+
+function Example() {
+  const [enabled, setEnabled] = useState(true);
+
+  return (
+    <form action="/notification-settings" method="post">
+      <Switch checked={enabled} onChange={setEnabled} name="notifications">
+        {/* Add your switch UI here */}
+      </Switch>
+      <button type="submit" className="mt-4 px-4 py-2 bg-blue-600 text-white rounded">
+        Submit
+      </button>
+    </form>
+  );
+}
+    `}
+                      </pre>
+                    </div>
+
                   </div>
+
                 </div>
+                <div className="pointer-events-none absolute inset-px rounded-lg ring-1 shadow-sm ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
               </div>
               <div className="pointer-events-none absolute inset-px rounded-lg ring-1 shadow-sm ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
             </div>

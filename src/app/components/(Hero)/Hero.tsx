@@ -10,7 +10,7 @@ const Hero = () => {
                     </div>
 
                     <h1 className="text-white text-5xl md:text-6xl font-bold max-w-5xl mx-auto leading-tight">
-                        Transforming workflows with AI powered automation
+                    Transforming IoT with AI-Powered Automation.
                     </h1>
 
                     <p className="text-white text-lg md:text-xl mt-6 max-w-3xl mx-auto">
