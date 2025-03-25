@@ -1,10 +1,8 @@
 "use client"
 
 import Head from "next/head";
-import Image from "next/image";
 import ProcessSection from "../components/ProcessSteps";
 import PricingSection from "../components/Pricingcard";
-import Link from "next/link";
 import Navbar from "../components/(Navbar)/Navbar";
 import About from "../components/(About)/About";
 import Hero from "../components/(Hero)/Hero";

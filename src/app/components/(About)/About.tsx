@@ -13,8 +13,8 @@ const About = () => {
                     </div>
 
                     <div className="max-w-5xl mx-auto text-center">
-                        <h2 className="text-white text-xl md:text-4xl font-base leading-tight mb-16">
-                            We are <span className='text-5xl text-purple-300 font-bold '>EZEBUDDIES</span> <br /> we specialize in supplying tailor-made IoT devices for both businesses (B2B) and individual consumers (B2C). Our full-stack IoT services include everything from device customization to AI-powered insights, app integration, and fast deployment—all in a subscription-based model for flexibility and affordability.
+                        <h2 className="text-xl md:text-2xl font-base leading-tight mb-16 text-zinc-300">
+                            We are <span className='text-2xl text-purple-300 font-bold '>EZEBUDDIES</span> <br /> we specialize in supplying tailor-made IoT devices for both businesses (B2B) and individual consumers (B2C). Our full-stack IoT services include everything from device customization to AI-powered insights, app integration, and fast deployment—all in a subscription-based model for flexibility and affordability.
 
                         </h2>
                     </div>
@@ -31,7 +31,7 @@ const About = () => {
                             <h2 className="text-white text-4xl md:text-6xl font-medium mb-6">
                                 Elevating Standards, Delivering Excellence
                             </h2>
-                            <p className="text-white text-xl opacity-80">
+                            <p className="text-white opacity-80 text-xl md:text-2xl">
                                 We combine innovation, reliability, and AI-driven intelligence to create high-performance IoT solutions that redefine efficiency and security. Our cutting-edge technology ensures seamless automation, unmatched security, and effortless scalability—helping you stay ahead in a connected world.
                             </p>
                         </div>

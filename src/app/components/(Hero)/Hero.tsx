@@ -14,8 +14,7 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-white text-lg md:text-xl mt-6 max-w-3xl mx-auto">
-                        Experience the future of business with intelligent, scalable
-                        automation solutions tailored to your needs
+                    Revolutionize your business with AI-powered IoT automation. Unlock intelligent, scalable, and adaptive solutions designed to optimize efficiency, enhance decision-making, and drive innovation—effortlessly.
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center mt-12 gap-4">

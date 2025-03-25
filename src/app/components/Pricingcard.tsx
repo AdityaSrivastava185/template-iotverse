@@ -24,7 +24,7 @@ const PricingSection: React.FC = () => {
   const plans: PricingPlan[] = [
     {
       title: 'Basic',
-      price: '$480',
+      price: '$100',
       description: 'Essential tools and features for starting your journey with ease.',
       buttonText: 'Go with this plan',
       buttonLink: '#',
@@ -38,7 +38,7 @@ const PricingSection: React.FC = () => {
     },
     {
       title: 'Professional',
-      price: '$960',
+      price: '$1000',
       description: 'Advanced capabilities designed to meet growing business needs.',
       buttonText: 'Go with this plan',
       buttonLink: '#',

@@ -6,9 +6,6 @@ const CallToAction = () => {
             <main className="flex-grow bg-black">
                 {/* Hero Section */}
                 <section className="flex flex-col items-center justify-center text-center py-24 px-4 h-screen">
-                    <div className="mb-8">
-                        {/* <img src="/radison-logo.svg" alt="Radison" className="h-8" /> */}
-                    </div>
 
                     <h1 className="text-5xl font-bold mb-4 max-w-2xl text-white">
                         Let's talk about<br />your next big move
