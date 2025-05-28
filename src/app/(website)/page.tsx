@@ -8,6 +8,7 @@ import About from "../components/(About)/About";
 import Hero from "../components/(Hero)/Hero";
 import Footer from "../components/(Footer)/Footer";
 import CallToAction from "../components/(cta)/CallToAction";
+import { Spotlight } from "@/components/ui/spotlight-new";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
+        <Spotlight />
         <Hero />
       </div>
       <About />

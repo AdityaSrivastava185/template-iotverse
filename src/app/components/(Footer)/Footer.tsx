@@ -1,10 +1,11 @@
+
 import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
     return (
         <div>
-            <footer className="border-t border py-12 px-6 bg-black">
+            <footer className="py-12 px-6 bg-black">
                 <div className="max-w-6xl mx-auto">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                         <div className="col-span-1 md:col-span-2">
@@ -27,7 +28,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col md:flex-row justify-between md:items-center mt-12 pt-8 border-t border-gray-800 text-sm text-white">
+                    <div className="flex flex-col md:flex-row justify-between md:items-center mt-12 pt-8 text-sm text-white">
                         <p>Policy and cookies</p>
                         <p>Terms and conditions</p>
                         <p>© All right reserved to EZEBUDDIES</p>

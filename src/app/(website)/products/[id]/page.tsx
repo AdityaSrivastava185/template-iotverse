@@ -101,7 +101,7 @@ export default function ProductDetailPage({ params }: Props) {
                     345 Reviews
                   </a>
                 </div>
-              </div>
+              </div> 
 
               <div className="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
                 <a
